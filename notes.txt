@@ -1,0 +1,54 @@
+Conceptual vs. Mental models
+
+http://www.jnd.org/dn.mss/design_as_communication.html
+
+
+"A mental model is the representation that a person has in his mind about the object he is interacting with. A conceptual model is the actual model that is given to the person through the design and interface of the actual product." (Susan M. Weinschenk. 2011. 100 Things Every Designer Needs to Know About People)
+
+http://ux.stackexchange.com/questions/9417/mental-model-vs-conceptual-model-whats-the-difference
+
+Mental model captures items in problem domain. conceptual model captures concepts and the relationships between them.
+
+
+https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/DesignPrinciples.html#//apple_ref/doc/uid/20000957-CH18-SW1
+A mental model is the concept of an object or experience that people carry in their heads.
+Mental models are psychological representations of real, hypothetical, or imaginary situations. 
+To put it simply, a mental model is a person’s intuition of how something works based on past experiences, knowledge, or common sense. 
+
+Mental Model:
+what does your audience want to do with you product
+what mental modes
+ailign feautres
+
+Conceptual Model:
+what is given to them
+
+How you can relate them:
+
+How this makes for the best user experience:
+
+Designing using mental models will help enhance and simplify your user experience overall. When you design by relating the user’s mental model and your conceptual model, it enhances the user experience by making the connection of how the user will expect to interact with your product and the actual model which will be given to them through the interface of the design. When you relate the two, the UX is raised because the actual model which is given to them makes sense.
+
+
+Outline
+Introduce topic
+Explain what a conceptual model is 
+Explain what a mental model is
+Show how you can do mental models
+Why is relating the 2 effective
+Show an example
+Idea
+Mental model
+Translating that into the conceptual model
+Show the outcome
+How that helped
+FIN
+Relate to real example
+
+Design Problem: When people get invited to events well in advance, they may lose the invite(s). When people are planning websites well in advanced, they may need to change details, but its expensive to send everything by mail.
+Idea: A website for events you’re invited to. Holds the invite information, updates any change. Adds the event to your google calendar. Visit the events website.
+Mental models:
+write the event in a calendar
+see your invitations
+see the information for the event
+
