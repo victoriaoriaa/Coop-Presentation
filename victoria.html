@@ -16,6 +16,7 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/victoria.css" id="theme">
+		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -41,47 +42,103 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section id="title">
-					<h1>Mental Models</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h2>Designing for Colourblind Users</h2>
 					<p>
 						<small>Presentation by <a href="http://victoriaoriaa.github.io">Victoria Canning-Choi</a></small>
 					</p>
 				</section>
+
+				<section>
+					<h3>How many people are affected by colour blindess?</h3>
+					<p class="fragment">1/12 men (8%) and 1/200 woman are colourblind. This makes up 4.5% of the world's population.</p>
+					<p class="fragment">Chances are there is someone in this room who is colourblind.</p>
+				</section>
+
+				<section>
+					<h3>What does this look like?</h3>
+					<img src="alt-normal.png">
+					<img src="alt-deuteran.png">
+					<img src="alt-protan.png">
+					<img src="alt-tritan.png">
+					<br>
+					<span class="fragment">Normal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span class="fragment">Green-Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span class="fragment">Red-Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span class="fragment">Blue-Type</span>
+					<p><small>source: <a href="http://wearecolorblind.com/" target="_blank">http://wearecolorblind.com/</a></small></p>
+				</section>
+
+				<section>
+					<h2>How can we choose colour blind friendly colour palettes?</h2>
+				</section>
+
 				<section>
 					<section>
-						<h2>This is a heading</h2>
-						<p>words, words, words, words</p>
+						<h2>Monochrome Palettes</h2>
+						<p>A colour palette using only one colour in multiple shades.</p>
+						<img src="pinks.png">
 					</section>
-
 					<section>
-						<h2>This is a heading</h2>
-						<table>
-							<thead>
-								<tr>
-									<th>hello</th>
-									<th>hello</th>
-									<th>hello</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Hello</td>
-									<td>Hello</td>
-									<td>Hello</td>
-								</tr>
-								<tr>
-									<td>Hello</td>
-									<td>Hello</td>
-									<td>Hello</td>
-								</tr>
-								<tr>
-									<td>Hello</td>
-									<td>Hello</td>
-									<td>Hello</td>
-								</tr>
-							</tbody>
+						<h3>How do monochrome palettes help?</h3>
+						<p class="fragment">Even if the user cannot see the exact shade you are intending, they are able to see the same difference in shade.</p>
+					</section>
+					<section>
+						<h2>Example</h2>
+						<img src="face.png" height="300px" width="auto">
+						<img src="face_deuteranopia.jpg" height="300px" width="auto">
+						<br>
+						<span class="fragment">Normal</span>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<span class="fragment">Green-Type</span>
+					</section>
+				</section>
 
-						</table>
+				<section>
+					<section>
+						<h2>Contrasting Colours</h2>
+						<p>Contrast of colours is the difference between colours. Contrast can be accomplished through hue, value, and chroma.</p>
+						<a href="http://www.vandelaydesign.com/ultimate-guide-color-theory-designers/" target="_blank"><img src="colour-system.jpg"></a>
+					</section>
+					<section>
+						<h3>Why is high contrast important?</h3>
+						<p>If contrast is too low, what contrast that may appear to you may be invisible for somone who is colour blind.</p>
+						<p>It is important to use at least 2 of  hue, value, and chroma when creating high contrast.</p>
+					</section>
+					<section>
+						<h2>Example</h2>
+						<img src="swatches.png" height="450px" width="auto">
+						<img src="swatches_protanopia.jpg" height="450px" width="auto">
+						<br>
+						<span class="fragment">Normal</span>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<span class="fragment">Red-Type</span>
+						<p><small>source: <a href="http://designshack.net/articles/accessibility/tips-for-designing-for-colorblind-users/" target="_blank">http://designshack.net/articles/accessibility</a></small></p>
+					</section>
+				</section>
+
+				<section>
+					<h2>How can we design better?</h2>
+				</section>
+
+				<section>
+					<section>
+						<h3>Don't solely associate colour with feedback</h3>
+						<p>Using colour is a helpful visual cue, but it's important it's not the only visual cue to relay information to the user.</p>
+						<p>A colour blind user may have a hard time noticing quickly identifying this visual cue.</p>
+					</section>
+					<section>
+						<h3>Solution: Redundancy Gain</h3>
+						<o><i>"If a signal is presented more than once, it is more likely that it will be understood correctly. This can be done by presenting the signal in alternative physical forms (e.g. color and shape, voice and print, etc.), as redundancy does not imply repetition. A traffic light is a good example of redundancy, as color and position are redundant."</i></o>
+						<p><small>source: Christopher Wickens et al. <i>An Introduction to Human Factors Engineering</i></small></p>
+					</section>
+					<section>
+						<h2>Example</h2>
+						<img src="alertboxes.png" height="180px" width="auto">
+						<img src="alertboxes_deuteranopia.jpg" height="180px" width="auto">
+						<br>
+						<span class="fragment">Normal</span>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<span class="fragment">Green-Type</span>
 					</section>
 				</section>
 
